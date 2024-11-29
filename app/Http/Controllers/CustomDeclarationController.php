@@ -11,8 +11,7 @@ class CustomDeclarationController extends Controller
 {
    public function index()
     {
-        $declarations = CustomDeclaration::all(); 
-           $declarations = CustomDeclaration::paginate(2);
+           $declarations = CustomDeclaration::paginate(5);
         return view('dashboard', compact('declarations'));
     }
 
