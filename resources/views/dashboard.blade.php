@@ -77,9 +77,8 @@
                             <div class="form-group mb-3">
                                 <label for="status">الحالة</label>
                                 <select name="status" id="status" class="form-control" required>
-                                    <option value="قيد المعالجة">قيد المعالجة</option>
-                                    <option value="تم التحقق">تم التحقق</option>
-                                    <option value="تم الرفض">تم الرفض</option>
+                                    <option value="العقبة">العقبة</option>
+                                    <option value="عمان">عمان</option>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-success w-100">إضافة البيان</button>
@@ -107,9 +106,8 @@
                             <div class="form-group mb-3">
                                 <label for="edit-status">الحالة</label>
                                 <select name="status" id="edit-status" class="form-control" required>
-                                    <option value="قيد المعالجة">قيد المعالجة</option>
-                                    <option value="تم التحقق">تم التحقق</option>
-                                    <option value="تم الرفض">تم الرفض</option>
+                                    <option value="العقبة">العقبة</option>
+                                    <option value="عمان">عمان</option>
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-success w-100">تعديل الحالة</button>
@@ -152,4 +150,3 @@
 </script>
 
 @endsection
-
